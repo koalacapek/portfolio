@@ -18,7 +18,7 @@ const Home = () => {
             through a combination of rigorous academic coursework and hands-on
             project experience.
           </p>
-          <MyResumeButton />
+          {/* <MyResumeButton /> */}
         </div>
       </div>
     </ContentWrapper>
