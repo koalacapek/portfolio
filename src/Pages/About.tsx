@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 import MyResumeButton from "../components/MyResumeButton";
 import ContentWrapper from "../components/ContentWrapper";
+import Skill from "../components/Skill";
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
             through a combination of rigorous academic coursework and hands-on
             project experience.
           </p>
-          {/* <MyResumeButton /> */}
+          <Skill text="HTML" />
         </div>
       </div>
     </ContentWrapper>
