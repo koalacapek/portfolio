@@ -17,9 +17,15 @@ const App = () => {
       transition={{ duration: 3 }}
     >
       <Navbar />
-      <About />
-      <Projects />
-      <Contact />
+      <section>
+        <About />
+      </section>
+      <section>
+        <Projects />
+      </section>
+      <section>
+        <Contact />
+      </section>
     </motion.div>
   );
 };

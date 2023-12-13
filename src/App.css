@@ -1,5 +1,10 @@
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
 body {
-  /* background-color: rgb(24, 35, 55); */
+  overflow-x: hidden;
   color: white;
   font-family: "Manrope", sans-serif;
   background: -moz-radial-gradient(
@@ -49,6 +54,14 @@ body {
     rgba(96, 165, 250, 0) 100%
   );
 }
+
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
 /* .App {
   text-align: center;
 }

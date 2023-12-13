@@ -3,7 +3,7 @@ import React, { MouseEventHandler } from "react";
 
 export interface NavButtonProps {
   text: string;
-  onClick: MouseEventHandler<HTMLButtonElement>;
+  link: string;
 }
 
 export interface CarouselItemProps {
