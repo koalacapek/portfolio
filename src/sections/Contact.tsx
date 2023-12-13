@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <ContentWrapper>
-      <div className="flex flex-grow justify-center mx-20">
-        <div>Contact Info</div>
-      </div>
-    </ContentWrapper>
+    <div
+      className="flex flex-grow justify-center mx-20 my-96 h-screen"
+      id="contact"
+    >
+      <div>Contact Info</div>
+    </div>
   );
 };
 

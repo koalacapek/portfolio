@@ -2,12 +2,15 @@ import { NavButtonProps } from "../types/types";
 
 const NavButton = (props: NavButtonProps) => {
   return (
-    <button
-      className="bg-transparent border-none cursor-pointer hover:underline transition duration-300 ease-in-out"
-      onClick={props.onClick}
-    >
-      {props.text}
-    </button>
+    <p className="bg-transparent border-none cursor-pointer hover:underline transition duration-300 ease-in-out">
+      <a href={props.text}>{props.text}</a>
+    </p>
+    // <button
+    //   className="bg-transparent border-none cursor-pointer hover:underline transition duration-300 ease-in-out"
+    //   onClick={props.onClick}
+    // >
+    //   {props.text}
+    // </button>
   );
 };
 

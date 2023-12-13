@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./Pages/About";
+import About from "./sections/About";
 import { AnimatePresence } from "framer-motion";
-import Projects from "./Pages/Projects";
-import Contact from "./Pages/Contact";
+import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
 
 const Pages = () => {
   return (
