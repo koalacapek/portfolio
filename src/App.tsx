@@ -7,6 +7,7 @@ import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Projects from "./sections/Projects";
 import { motion } from "framer-motion";
+import Skills from "./sections/Skills";
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
       <Navbar />
       <section>
         <About />
+      </section>
+      <section>
+        <Skills />
       </section>
       <section>
         <Projects />

@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Navbar from "../components/Navbar";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import MyResumeButton from "../components/MyResumeButton";
 import ContentWrapper from "../components/ContentWrapper";
 import Skill from "../components/Skill";
 import "./about.css";
+import ScrollAnimation from "../components/ScrollAnimation";
 
 const About = () => {
   const textVariants = {
@@ -32,7 +33,7 @@ const About = () => {
 
   return (
     <motion.div
-      className="flex main-content"
+      className="flex h-full flex-col items-center"
       variants={textVariants}
       initial="initial"
       animate="animate"
@@ -49,13 +50,13 @@ const About = () => {
           <div className="w-5 h-5 rounded-full bg-blue-400" />
           <div className="w-1 sm:h-80 h-40 blue-gradient" />
         </motion.div>
-        <motion.div className="space-y-6 w-5/12" variants={textVariants}>
+        <motion.div className="space-y-6 w-5/12 mb-5" variants={textVariants}>
           <p className="text-5xl font-bold">
             Hi, I'm <span className="text-blue-400">Hans</span>!
           </p>
-          <motion.p className="text-lg" variants={textVariants}>
-            UNSW Computer Science Student
-          </motion.p>
+          {/* <motion.p className="text-lg" variants={textVariants}>
+            I'm a final year Computer Science Student at UNSW
+          </motion.p> */}
           <motion.p className="text-lg" variants={textVariants}>
             I'm a highly motivated final-year Computer Science student at the
             University of New South Wales, Passionate about leveraging
@@ -67,6 +68,9 @@ const About = () => {
             <MyResumeButton />
           </motion.div>
         </motion.div>
+      </div>
+      <div className="pb-20">
+        <ScrollAnimation />
       </div>
     </motion.div>
   );
