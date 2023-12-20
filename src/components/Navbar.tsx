@@ -1,17 +1,41 @@
 import { Button } from "@mui/material";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import NavButton from "./NavButton";
 import { useLocation, useNavigate } from "react-router-dom";
 import MyResumeButton from "./MyResumeButton";
+import { useActiveContext } from "../contexts/ActiveContext";
 
 const Navbar = () => {
+  const links = [
+    {
+      link: "about",
+      text: "About",
+    },
+    {
+      link: "projects",
+      text: "Projects",
+    },
+    {
+      link: "contact",
+      text: "Contact",
+    },
+  ];
+
+  const { active, setActive, setTimeOfLastClick } = useActiveContext();
   return (
     <div className="flex p-7 fixed w-full justify-between">
       <div className="text-xl mx-12">Portfolio</div>
       <div className="flex space-x-10 text-lg mx-20 right-0">
-        <NavButton link="about" text="About Me" />
-        <NavButton link="projects" text="Projects" />
-        <NavButton link="contact" text="Contact" />
+        {links.map((link, key) => (
+          <NavButton
+            key={key}
+            link={link.link}
+            text={link.text}
+            setTimeOfLastClick={setTimeOfLastClick}
+            active={active}
+            setActive={setActive}
+          />
+        ))}
       </div>
     </div>
   );

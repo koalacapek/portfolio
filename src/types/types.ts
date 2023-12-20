@@ -1,9 +1,11 @@
-// eslint-disable
-import React, { MouseEventHandler } from "react";
+import React from "react";
 
 export interface NavButtonProps {
   text: string;
   link: string;
+  setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
+  active: string;
+  setActive: React.Dispatch<React.SetStateAction<string>>;
 }
 
 export interface CarouselItemProps {

@@ -1,20 +1,11 @@
 import React, { useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 import { motion, useScroll, useTransform } from "framer-motion";
-import ContentWrapper from "../components/ContentWrapper";
-import Carousel from "../components/Carousel";
 import "./about.css";
 import ProjectCard from "../components/ProjectCard";
+import { useSectionInView } from "../hooks/useSectionInView";
 
 const Projects = () => {
-  // const ref = useRef();
-
-  // const { scrollYProgress } = useScroll({
-  //   target: ref,
-  // });
-
-  // const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
-  // const [load, setLoad] = useState(false);
   const variants = {
     initial: {
       y: 500,
@@ -57,34 +48,34 @@ const Projects = () => {
     },
   ];
 
+  const { ref } = useSectionInView("Projects");
+
   return (
-    <motion.div
-      className="flex h-full justify-center items-center pt-[100px]"
-      variants={variants}
-      id="projects"
-      initial="initial"
-      whileInView="animate"
-    >
-      <div className="rounded-xl container bg-slate-900 w-[60%] h-[90%] pt-10">
-        <div className="pb-10 text-center font-bold text-3xl">My Projects</div>
-        <div className="flex flex-wrap gap-5 items-center justify-center">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={index}
-              name={project.name}
-              img={project.img}
-              link={project.link}
-              desc={project.desc}
-            />
-          ))}
+    <section id="projects" ref={ref}>
+      <motion.div
+        className="flex h-full justify-center items-center pt-[100px]"
+        variants={variants}
+        initial="initial"
+        whileInView="animate"
+      >
+        <div className="rounded-xl container bg-slate-900 w-[60%] h-[90%] pt-10">
+          <div className="pb-10 text-center font-bold text-3xl">
+            My Projects
+          </div>
+          <div className="flex flex-wrap gap-5 items-center justify-center">
+            {projects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                name={project.name}
+                img={project.img}
+                link={project.link}
+                desc={project.desc}
+              />
+            ))}
+          </div>
         </div>
-      </div>
-      {/* <div className="min-h-screen w-screen flex justify-center items-center">
-        <div className="container mx-auto">
-          <Carousel />
-        </div>
-      </div> */}
-    </motion.div>
+      </motion.div>
+    </section>
   );
 };
 
