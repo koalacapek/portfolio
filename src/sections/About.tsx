@@ -1,8 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import Navbar from "../components/Navbar";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import MyResumeButton from "../components/MyResumeButton";
-import Skill from "../components/Skill";
 import "./about.css";
 import ScrollAnimation from "../components/ScrollAnimation";
 import { useSectionInView } from "../hooks/useSectionInView";
@@ -32,6 +29,7 @@ const About = () => {
   };
 
   const { ref } = useSectionInView("About");
+  console.log("about");
 
   return (
     <section id="about" ref={ref}>

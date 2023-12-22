@@ -1,8 +1,4 @@
-import { Button } from "@mui/material";
-import React, { useRef, useState } from "react";
 import NavButton from "./NavButton";
-import { useLocation, useNavigate } from "react-router-dom";
-import MyResumeButton from "./MyResumeButton";
 import { useActiveContext } from "../contexts/ActiveContext";
 
 const Navbar = () => {

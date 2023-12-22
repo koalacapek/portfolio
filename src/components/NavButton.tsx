@@ -1,6 +1,5 @@
 import { NavButtonProps } from "../types/types";
 import clsx from "clsx";
-import { motion } from "framer-motion";
 
 const NavButton = (props: NavButtonProps) => {
   return (

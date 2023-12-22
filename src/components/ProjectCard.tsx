@@ -7,7 +7,10 @@ const ProjectCard = (props: CardProps) => {
   };
 
   return (
-    <div className="rounded-lg shadow-lg overflow-hidden w-[45%] h-80 flex flex-col gap-4  bg-deepblue hover:shadow-md hover:scale-105 cursor-pointer transition-transform duration-300 ease-in-out">
+    <div
+      onClick={handleButtonClick}
+      className="rounded-lg shadow-lg overflow-hidden w-[45%] h-80 flex flex-col gap-4  bg-deepblue hover:shadow-md hover:scale-105 cursor-pointer transition-transform duration-300 ease-in-out"
+    >
       <img
         className="w-full h-[55%] object-cover"
         src={props.img}

@@ -1,6 +1,6 @@
-import { useContext, useEffect } from "react";
+import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { ActiveContext, useActiveContext } from "../contexts/ActiveContext";
+import { useActiveContext } from "../contexts/ActiveContext";
 
 export const useSectionInView = (sectionName: string, threshold = 0.75) => {
   const { ref, inView } = useInView({

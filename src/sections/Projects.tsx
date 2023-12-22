@@ -1,6 +1,4 @@
-import React, { useRef, useState } from "react";
-import Navbar from "../components/Navbar";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import "./about.css";
 import ProjectCard from "../components/ProjectCard";
 import { useSectionInView } from "../hooks/useSectionInView";
@@ -8,7 +6,6 @@ import { useSectionInView } from "../hooks/useSectionInView";
 const Projects = () => {
   const variants = {
     initial: {
-      y: 500,
       opacity: 0,
     },
     animate: {
