@@ -3,6 +3,9 @@ import MyResumeButton from "../components/MyResumeButton";
 import "./about.css";
 import ScrollAnimation from "../components/ScrollAnimation";
 import { useSectionInView } from "../hooks/useSectionInView";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   const textVariants = {
@@ -29,53 +32,85 @@ const About = () => {
   };
 
   const { ref } = useSectionInView("About");
-  console.log("about");
+
+  const handleGithub = () => {
+    window.open(
+      "https://github.com/koalacapek",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
+  const handleLinkedin = () => {
+    window.open(
+      "www.linkedin.com/in/hans-kristian-reynaldi",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
 
   return (
     <section id="about" ref={ref}>
-      <motion.div
-        className="flex h-full flex-col items-center"
-        variants={textVariants}
-        initial="initial"
-        animate="animate"
-      >
-        <div className="flex flex-grow items-center justify-center gap-10 pt-[84px]">
-          <motion.p
-            className="text-6xl font-bold mr-20"
-            variants={textVariants}
-          >
-            About Me
-          </motion.p>
-          <motion.div
-            className="flex flex-col items-center"
-            variants={textVariants}
-          >
-            <div className="w-5 h-5 rounded-full bg-blue-400" />
-            <div className="w-1 sm:h-80 h-40 blue-gradient" />
-          </motion.div>
-          <motion.div className="space-y-6 w-5/12 mb-5" variants={textVariants}>
-            <p className="text-5xl font-bold">
-              Hi, I'm <span className="text-blue-400">Hans</span>!
-            </p>
-            {/* <motion.p className="text-lg" variants={textVariants}>
-            I'm a final year Computer Science Student at UNSW
-          </motion.p> */}
-            <motion.p className="text-lg" variants={textVariants}>
-              I'm a highly motivated final-year Computer Science student at the
-              University of New South Wales, Passionate about leveraging
-              technology to solve real-world problems, I have honed my skills
-              through a combination of rigorous academic coursework and hands-on
-              project experience.
-            </motion.p>
-            <motion.div variants={textVariants}>
-              <MyResumeButton />
-            </motion.div>
-          </motion.div>
+      <div className="flex flex-col items-center flex-1 h-full w-full relative">
+        {/* <p className="text-6xl font-bold" variants={textVariants}>
+          About Me
+        </p> */}
+
+        <div className="flex items-center h-full pt-[1%]">
+          <div className="flex items-center justify-center flex-1 ">
+            <Fade direction="left">
+              <div className="border-2 border-greyBorder rounded-full h-[35rem] w-[35rem]">
+                <img
+                  src="/1722425039634zgazn525.webp"
+                  alt="Description"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="flex flex-col w-[50%] pr-20 mt-[3%]">
+            <Fade direction="down">
+              <div>
+                <p className="text-6xl mb-8">Hello!</p>
+                <p className="text-6xl font-bold">I'm Hans Kristian Reynaldi</p>
+              </div>
+
+              <div className="w-[15%] border border-black bg-black rounded-md my-12" />
+            </Fade>
+
+            <Fade direction="up">
+              <p className="text-3xl font-bold mb-6">FRONTEND DEVELOPER</p>
+              <p className="text-lg">
+                I'm a highly motivated final-year Computer Science student at
+                the University of New South Wales, Passionate about leveraging
+                technology to solve real-world problems, I have honed my skills
+                through a combination of rigorous academic coursework and
+                hands-on project experience.
+              </p>
+              <div className="my-8">
+                <MyResumeButton />
+                <div className="pt-[3%] flex flex-row gap-x-6">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    size="2x"
+                    onClick={handleGithub}
+                    className="hover:cursor-pointer"
+                  />
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    size="2x"
+                    onClick={handleLinkedin}
+                    className="hover:cursor-pointer"
+                  />
+                </div>
+              </div>
+            </Fade>
+          </div>
         </div>
-        <div className="pb-20">
-          <ScrollAnimation />
-        </div>
-      </motion.div>
+      </div>
+      <div className="absolute bottom-10 left-1/2">
+        <ScrollAnimation />
+      </div>
     </section>
   );
 };

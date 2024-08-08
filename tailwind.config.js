@@ -6,11 +6,12 @@ module.exports = {
       colors: {
         deepblue: "rgb(4, 12, 24)",
         tertiary: "#151030",
+        greyBorder: "rgb(163, 163, 163)",
       },
       scale: {
         102: "1.02",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };

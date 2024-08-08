@@ -6,10 +6,10 @@ const MyResumeButton = () => {
 
   return (
     <button
-      className=" hover:bg-blue-700 hover:text-white hover:border-blue-700  py-4 border-blue-400 border-2 px-6 transition duration-300 ease-in-out text-blue-400 text-xl rounded-lg"
+      className="hover:bg-gray-800 hover:text-white hover:border-gray-800 py-4 border-black border-2 px-6 transition duration-300 ease-in-out text-black text-xl rounded-lg w-[15%]"
       onClick={handleOpenResume}
     >
-      My Resume
+      My CV
     </button>
   );
 };

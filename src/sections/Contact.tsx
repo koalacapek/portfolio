@@ -21,15 +21,11 @@ const Contact = () => {
   };
 
   const { ref } = useSectionInView("Contact");
-  console.log("contact");
   return (
     <section id="contact" ref={ref}>
       <div className="flex h-full pt-[84px] items-center mx-40 justify-center">
         <motion.div className="flex flex-col gap-10 flex-1" variants={variants}>
-          <motion.h1
-            variants={variants}
-            className="font-bold text-8xl text-blue-400"
-          >
+          <motion.h1 variants={variants} className="font-bold text-8xl ">
             Let’s work together!
           </motion.h1>
           <motion.div className="item" variants={variants}>
@@ -38,7 +34,7 @@ const Contact = () => {
           </motion.div>
           <motion.div className="item" variants={variants}>
             <h2 className="block text-[1.5em] font-bold">Address</h2>
-            <span>20 O'Dea Ave, Waterloo, NSW, Australia</span>
+            <span>10 Peters Street, Zetland, NSW, Australia</span>
           </motion.div>
           <motion.div className="item" variants={variants}>
             <h2 className="block text-[1.5em] font-bold">Phone</h2>
@@ -51,26 +47,26 @@ const Contact = () => {
             // onSubmit={sendEmail}
           >
             <input
-              className="p-[20px] bg-transparent border border-white text-white rounded-md"
+              className="p-[20px] bg-transparent border-greyBorder border-solid border-2 text-white rounded-md"
               type="text"
               required
               placeholder="Name"
               name="name"
             />
             <input
-              className="p-[20px] bg-transparent border border-white text-white rounded-md"
+              className="p-[20px] bg-transparent border-greyBorder border-solid border-2 text-white rounded-md"
               type="email"
               required
               placeholder="Email"
               name="email"
             />
             <textarea
-              className="p-[20px] bg-transparent border border-white text-white rounded-md"
+              className="p-[20px] bg-transparent border-greyBorder border-solid border-2 text-white rounded-md"
               rows={8}
               placeholder="Message"
               name="message"
             />
-            <button className="p-5 border rounded-md cursor-pointer font-medium border-blue-500 text-blue-500 transition duration-300 ease-in-out hover:bg-blue-700 hover:text-white hover:border-blue-700">
+            <button className="p-5 rounded-md cursor-pointer font-medium border-greyBorder border-solid border-2 transition duration-300 ease-in-out hover:bg-gray-800 hover:text-white hover:border-gray-800">
               Submit
             </button>
             {/* {error && "Error"}
