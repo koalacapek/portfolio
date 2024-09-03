@@ -8,7 +8,7 @@ export function ExpTimeline() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-4">
-            Started my Computer Science journey at UNSW!
+            Started my programming journey at UNSW!
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
