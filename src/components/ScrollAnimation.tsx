@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import mouse from "../assets/scroll.png";
 
 const ScrollAnimation = () => {
   const scrollVariant = {
@@ -17,7 +18,7 @@ const ScrollAnimation = () => {
         className="w-[50px]"
         variants={scrollVariant}
         animate="scrollButton"
-        src="../assets/scroll.png"
+        src={mouse}
         alt=""
       />
     </div>
