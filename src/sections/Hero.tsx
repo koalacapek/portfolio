@@ -77,7 +77,7 @@ const Hero = () => {
             </Fade>
           </div>
         </div>
-        <div className="absolute bottom-10 left-1/2">
+        <div className="absolute bottom-20 left-1/2">
           <ScrollAnimation />
         </div>
       </div>

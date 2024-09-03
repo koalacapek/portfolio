@@ -14,12 +14,12 @@ const Navbar = () => {
       text: "About",
     },
     {
-      link: "projects",
-      text: "Projects",
+      link: "experiences",
+      text: "Experiences",
     },
     {
-      link: "contact",
-      text: "Contact",
+      link: "projects",
+      text: "Projects",
     },
   ];
 

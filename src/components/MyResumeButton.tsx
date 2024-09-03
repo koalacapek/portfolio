@@ -6,7 +6,7 @@ const MyResumeButton = () => {
 
   return (
     <button
-      className="hover:bg-gray-800 hover:text-white hover:border-gray-800 py-4 border-white border-2 px-8 transition duration-300 ease-in-out text-xl rounded-xl"
+      className="hover:bg-white hover:text-black hover:border-black py-4 border-white border px-8 transition duration-300 ease-in-out text-xl rounded-xl"
       onClick={handleOpenResume}
     >
       My CV
