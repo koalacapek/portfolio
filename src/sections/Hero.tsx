@@ -9,7 +9,7 @@ import { GlobeDemo } from "../components/Globe/GlobeDemo";
 import { Spotlight } from "../components/ui/Spotlight";
 
 const Hero = () => {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Home");
 
   const handleGithub = () => {
     window.open(
@@ -28,7 +28,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="about" ref={ref}>
+    <section id="home" ref={ref}>
       <div className="flex flex-col items-center h-screen w-screen relative">
         <Spotlight
           className="-top-40 left-0 md:left-60 md:-top-20"
