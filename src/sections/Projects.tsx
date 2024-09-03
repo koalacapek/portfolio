@@ -44,7 +44,7 @@ const Projects = () => {
     <section id="projects" ref={ref}>
       <Fade
         duration={2000}
-        className="flex h-full w-screen justify-center items-center"
+        className="flex h-screen w-screen justify-center items-center"
       >
         <div className="w-10/12 h-full">
           <div className="flex flex-col h-full items-center justify-center gap-y-5 mx-28 pt-10">
