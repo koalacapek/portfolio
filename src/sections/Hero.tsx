@@ -59,7 +59,7 @@ const Hero = () => {
               </p>
               <div className="my-8">
                 <MyResumeButton />
-                <div className="pt-[3%] flex flex-row gap-x-6">
+                <div className="pt-9 flex flex-row gap-x-6">
                   <FontAwesomeIcon
                     icon={faGithub}
                     size="2x"
