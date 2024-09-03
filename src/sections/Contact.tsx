@@ -69,8 +69,6 @@ const Contact = () => {
             <button className="p-5 rounded-md cursor-pointer font-medium border-greyBorder border-solid border-2 transition duration-300 ease-in-out hover:bg-gray-800 hover:text-white hover:border-gray-800">
               Submit
             </button>
-            {/* {error && "Error"}
-            {success && "Success"} */}
           </form>
         </div>
       </div>

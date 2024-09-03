@@ -30,7 +30,7 @@ const Hero = () => {
     <section id="about" ref={ref}>
       <div className="flex flex-col items-center flex-1 h-screen w-screen relative">
         <div className="flex items-center h-full">
-          <div className="w-1/2 flex justify-center items-center border-2 border-purple-700">
+          <div className="w-1/2">
             <GlobeDemo />
             {/* <img
                 src="/1722425039634zgazn525.webp"
@@ -38,14 +38,14 @@ const Hero = () => {
                 className="h-full w-full object-cover"
               /> */}
           </div>
-          <div className="flex flex-col w-1/2 pr-20 border border-red-600">
+          <div className="flex flex-col w-1/2 pr-20">
             <Fade direction="down">
               <div>
                 <p className="text-6xl mb-8">Hello!</p>
                 <p className="text-6xl font-bold">I'm Hans Kristian Reynaldi</p>
               </div>
 
-              <div className="w-[15%] border border-black bg-black rounded-md my-12" />
+              <div className="w-[15%] border border-white bg-white rounded-md my-12" />
             </Fade>
 
             <Fade direction="up">
@@ -77,9 +77,9 @@ const Hero = () => {
             </Fade>
           </div>
         </div>
-      </div>
-      <div className="absolute bottom-10 left-1/2">
-        <ScrollAnimation />
+        <div className="absolute bottom-10 left-1/2">
+          <ScrollAnimation />
+        </div>
       </div>
     </section>
   );
