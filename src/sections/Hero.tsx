@@ -34,11 +34,11 @@ const Hero = () => {
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="white"
         />
-        <div className="flex items-center justify-center h-full">
+        <div className="flex items-center justify-center w-full h-full">
           {/* <div className="w-1/2">
             <GlobeDemo />
           </div> */}
-          <div className="flex flex-col w-8/12 border items-center justify-center">
+          <div className="flex flex-col w-8/12 items-center justify-center">
             <Fade direction="down">
               <div>
                 <h1 className="text-9xl mb-8">
@@ -52,16 +52,10 @@ const Hero = () => {
             <Fade direction="up">
               <div className="flex flex-col items-center text-center">
                 <p className="text-3xl font-bold mb-6">FRONTEND DEVELOPER</p>
-                <p className="text-lg">
-                  I'm a highly motivated final-year Computer Science student at
-                  the University of New South Wales, Passionate about leveraging
-                  technology to solve real-world problems, I have honed my
-                  skills through a combination of rigorous academic coursework
-                  and hands-on project experience.
-                </p>
+
                 <div className="my-8">
                   <MyResumeButton />
-                  <div className="pt-9 flex flex-row gap-x-6">
+                  <div className="pt-9 flex flex-row justify-center gap-x-6">
                     <FontAwesomeIcon
                       icon={faGithub}
                       size="2x"
