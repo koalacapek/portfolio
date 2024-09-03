@@ -56,12 +56,6 @@ const Projects = () => {
 
   return (
     <section id="projects" ref={ref}>
-      {/* <motion.div
-        className="flex h-full w-screen justify-center items-center"
-        variants={variants}
-        initial="initial"
-        whileInView="animate"
-      > */}
       <Fade
         duration={2000}
         className="flex h-full w-screen justify-center items-center"
@@ -86,7 +80,6 @@ const Projects = () => {
           </div>
         </div>
       </Fade>
-      {/* </motion.div> */}
     </section>
   );
 };
