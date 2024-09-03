@@ -63,7 +63,7 @@ const Projects = () => {
         whileInView="animate"
       > */}
       <Fade
-        duration={1000}
+        duration={2000}
         className="flex h-full w-screen justify-center items-center"
       >
         <div className="w-10/12 h-full">
