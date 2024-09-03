@@ -32,11 +32,6 @@ const Hero = () => {
         <div className="flex items-center h-full">
           <div className="w-1/2">
             <GlobeDemo />
-            {/* <img
-                src="/1722425039634zgazn525.webp"
-                alt="Description"
-                className="h-full w-full object-cover"
-              /> */}
           </div>
           <div className="flex flex-col w-1/2 pr-20">
             <Fade direction="down">
