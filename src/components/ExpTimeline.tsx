@@ -7,24 +7,24 @@ export function ExpTimeline() {
       title: "2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-4">
             Trying to self learn more concepts that is not taught in uni.
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Secured first internship as a
               <span className="font-semibold">Frontend Developer</span> at
               <span className="font-semibold">DAPPA</span>
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Joined another hackathon by UNSW CSESoc and DevSoc (did not
               win🥲🥲)
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Got another internship! (remote) as a{" "}
               <span className="font-semibold">Full Stack Engineer</span>
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ More to come!
             </div>
           </div>
@@ -65,20 +65,20 @@ export function ExpTimeline() {
       title: "2023",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-4">
             Get to know more stuff that is applicable in real world.
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Object Oriented Programming and Database Systems
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ UI/UX Design, learn how to use Figma
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Joined UNSW GDSC hackathon and won first place!
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ FRONTENDDDDDDDDD<span className="font-semibold">(React</span>{" "}
               and
               <span className="font-semibold">React Native)</span> 😘😘😘😘😘
@@ -121,20 +121,20 @@ export function ExpTimeline() {
       title: "2022",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-base font-normal mb-4">
             Started my Computer Science journey at UNSW!
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Hello, World!
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Array, LinkedList, Stack, Queue
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Tree, Graph, Heaps, Priority Queue🤯🤯
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ JAVASCRIPT and TYPESCRIPT😍😍
             </div>
           </div>
