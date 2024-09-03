@@ -14,7 +14,7 @@ const Sections = () => {
       {/* <Skills /> */}
       <Experiences />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
     </ActiveContextProvider>
   );
 };
