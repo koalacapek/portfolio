@@ -20,4 +20,5 @@ export interface CardProps {
   desc: string;
   img: string;
   link: string;
+  title: string;
 }
