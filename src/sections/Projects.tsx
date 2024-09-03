@@ -25,7 +25,7 @@ const Projects = () => {
       name: "Dues",
       desc: "NextJS Typescript Firebase",
       img: dues,
-      link: "https://www.youtube.com/shorts/X9lBXrwAmBs",
+      link: "https://dues-deploy.vercel.app/",
       title: "Click me! (Deployed!)",
     },
     {
@@ -62,11 +62,11 @@ const Projects = () => {
         whileInView="animate"
       >
         <div className="w-10/12 h-full">
-          <div className="flex flex-col h-full items-center justify-center gap-y-5 mx-36 pt-10">
+          <div className="flex flex-col h-full items-center justify-center gap-y-5 mx-28 pt-10">
             <h1 className="pb-10 text-center font-bold text-4xl">
               My Projects
             </h1>
-            <div className="w-full grid grid-cols-2 grid-rows-2 justify-items-center gap-y-20">
+            <div className="w-full grid grid-cols-2 grid-rows-2 justify-items-center gap-y-24">
               {projects.map((project, index) => (
                 <ProjectCard
                   key={index}
