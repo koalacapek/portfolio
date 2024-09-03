@@ -7,7 +7,7 @@ export const useSectionInView = (sectionName: string, threshold = 0.75) => {
     threshold,
   });
   const { setActive, timeOfLastClick } = useActiveContext();
-
+  // console.log(sectionName);
   useEffect(() => {
     if (inView && Date.now() - timeOfLastClick > 1000) {
       setActive(sectionName);
