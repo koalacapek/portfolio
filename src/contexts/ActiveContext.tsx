@@ -14,7 +14,7 @@ export const ActiveContextProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const [active, setActive] = useState<string>("About");
+  const [active, setActive] = useState<string>("Home");
   const [timeOfLastClick, setTimeOfLastClick] = useState(0);
 
   return (

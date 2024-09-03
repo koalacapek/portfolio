@@ -10,8 +10,8 @@ const Navbar = () => {
 
   const links = [
     {
-      link: "about",
-      text: "About",
+      link: "home",
+      text: "Home",
     },
     {
       link: "experiences",
