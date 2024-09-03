@@ -5,8 +5,9 @@ html {
 
 body {
   overflow-x: hidden;
-  color: black;
+  color: white;
   font-family: "Manrope", sans-serif;
+  background-color: black;
 }
 
 .black-gradient {

@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import { ActiveContextProvider } from "./contexts/ActiveContext";
-import About from "./sections/About";
+import Hero from "./sections/Hero";
 import Contact from "./sections/Contact";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
@@ -9,7 +9,7 @@ const Sections = () => {
   return (
     <ActiveContextProvider>
       <Navbar />
-      <About />
+      <Hero />
       <Skills />
       <Projects />
       <Contact />

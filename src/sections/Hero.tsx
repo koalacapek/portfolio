@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import MyResumeButton from "../components/MyResumeButton";
 import "./about.css";
 import ScrollAnimation from "../components/ScrollAnimation";
@@ -6,31 +5,9 @@ import { useSectionInView } from "../hooks/useSectionInView";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Fade } from "react-awesome-reveal";
+import { GlobeDemo } from "../components/Globe/GlobeDemo";
 
-const About = () => {
-  const textVariants = {
-    initial: {
-      x: -500,
-      opacity: 0,
-    },
-    animate: {
-      x: 0,
-      opacity: 1,
-      transition: {
-        duration: 1,
-        staggerChildren: 0.1,
-      },
-    },
-    scrollButton: {
-      opacity: 0,
-      y: 10,
-      transition: {
-        duration: 2,
-        repeat: Infinity,
-      },
-    },
-  };
-
+const Hero = () => {
   const { ref } = useSectionInView("About");
 
   const handleGithub = () => {
@@ -51,24 +28,17 @@ const About = () => {
 
   return (
     <section id="about" ref={ref}>
-      <div className="flex flex-col items-center flex-1 h-full w-full relative">
-        {/* <p className="text-6xl font-bold" variants={textVariants}>
-          About Me
-        </p> */}
-
-        <div className="flex items-center h-full pt-[1%]">
-          <div className="flex items-center justify-center flex-1 ">
-            <Fade direction="left">
-              <div className="border-2 border-greyBorder rounded-full h-[35rem] w-[35rem]">
-                <img
-                  src="/1722425039634zgazn525.webp"
-                  alt="Description"
-                  className="h-full w-full object-cover"
-                />
-              </div>
-            </Fade>
+      <div className="flex flex-col items-center flex-1 h-screen w-screen relative">
+        <div className="flex items-center h-full">
+          <div className="w-1/2 flex justify-center items-center border-2 border-purple-700">
+            <GlobeDemo />
+            {/* <img
+                src="/1722425039634zgazn525.webp"
+                alt="Description"
+                className="h-full w-full object-cover"
+              /> */}
           </div>
-          <div className="flex flex-col w-[50%] pr-20 mt-[3%]">
+          <div className="flex flex-col w-1/2 pr-20 border border-red-600">
             <Fade direction="down">
               <div>
                 <p className="text-6xl mb-8">Hello!</p>
@@ -115,4 +85,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Hero;

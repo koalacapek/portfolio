@@ -56,7 +56,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-center mt-8 w-full">
       <div
-        className={`flex fixed w-fit border-2 py-5 px-14 shadow-xl border-greyBorder bg-white z-10 rounded-full duration-300 transition-all ${
+        className={`flex fixed w-fit border-2 py-5 px-14 shadow-xl border-greyBorder z-10 rounded-full duration-300 transition-all ${
           !visible && "-translate-y-[150%]"
         }`}
       >

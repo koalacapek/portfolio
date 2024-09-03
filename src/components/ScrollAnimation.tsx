@@ -17,7 +17,7 @@ const ScrollAnimation = () => {
         className="w-[50px]"
         variants={scrollVariant}
         animate="scrollButton"
-        src="/mouse-cursor.png"
+        src="/scroll.png"
         alt=""
       />
     </div>
