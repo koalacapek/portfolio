@@ -5,7 +5,6 @@ import { useSectionInView } from "../hooks/useSectionInView";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Fade } from "react-awesome-reveal";
-import { GlobeDemo } from "../components/Globe/GlobeDemo";
 import { Spotlight } from "../components/ui/Spotlight";
 
 const Hero = () => {
@@ -35,9 +34,6 @@ const Hero = () => {
           fill="white"
         />
         <div className="flex items-center justify-center w-full h-full">
-          {/* <div className="w-1/2">
-            <GlobeDemo />
-          </div> */}
           <div className="relative flex flex-col w-8/12 h-full items-center justify-center">
             <Fade direction="down">
               <h1 className="md:text-9xl text-8xl mb-8 text-center">
