@@ -5,7 +5,7 @@ const ProjectCard = (props: CardProps) => {
   return (
     <div className="h-fit w-fit flex items-center justify-center">
       <PinContainer title={props.title} href={props.link}>
-        <div className="flex basis-full flex-col tracking-tight text-slate-100/50 sm:basis-1/2 w-[36rem] h-[24rem]">
+        <div className="flex basis-full flex-col tracking-tight text-slate-100/50 sm:basis-1/2 w-[34rem] h-[24rem]">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold text-xl text-slate-100">
             {props.name}
           </h3>
