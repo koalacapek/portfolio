@@ -40,8 +40,9 @@ const Hero = () => {
           </div> */}
           <div className="relative flex flex-col w-8/12 h-full items-center justify-center">
             <Fade direction="down">
-              <h1 className="text-9xl mb-8">
-                Hello! <span className="font-bold">I'm Hans</span>
+              <h1 className="md:text-9xl text-8xl mb-8 text-center">
+                Hello!{" "}
+                <span className="font-bold block xl:inline">I'm Hans</span>
               </h1>
 
               <div className="bg-white border rounded-md mt-5 mb-12 px-28" />
