@@ -49,11 +49,9 @@ const Projects = () => {
         className="flex h-screen w-screen justify-center items-center"
       >
         <div className="w-10/12 h-full">
-          <div className="flex flex-col h-full items-center justify-center gap-y-5 mx-28 pt-10">
-            <h1 className="pb-10 text-center font-bold text-4xl">
-              My Projects
-            </h1>
-            <div className="w-full grid grid-cols-2 grid-rows-2 justify-items-center gap-y-24">
+          <div className="flex flex-col h-full items-center justify-center gap-y-20 mx-28">
+            <h1 className="text-center font-bold text-5xl">My Projects</h1>
+            <div className="w-full grid grid-cols-2 grid-rows-2 justify-items-center gap-y-28">
               {projects.map((project, index) => (
                 <ProjectCard
                   key={index}
