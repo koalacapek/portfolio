@@ -1,10 +1,12 @@
-import { motion } from "framer-motion";
 import "./about.css";
 import ProjectCard from "../components/ProjectCard";
 import { useSectionInView } from "../hooks/useSectionInView";
+import { Fade } from "react-awesome-reveal";
 
 import dues from "../assets/dues.png";
-import { Fade } from "react-awesome-reveal";
+import hobbifyphone from "../assets/hobbifyphone.png";
+import mentalaquarium from "../assets/mentalaquarium.png";
+import comingsoon from "../assets/comingsoon.png";
 
 const Projects = () => {
   const projects = [
@@ -13,28 +15,28 @@ const Projects = () => {
       desc: "NextJS  Typescript  Firebase",
       img: dues,
       link: "https://dues-deploy.vercel.app/",
-      title: "Click me! (Deployed!)",
+      title: "Try me!",
     },
     {
       name: "Hobbify",
       desc: "React Native  Firebase",
-      img: dues,
-      link: "https://www.youtube.com/shorts/X9lBXrwAmBs",
+      img: hobbifyphone,
+      link: "https://github.com/NE1NN/hobbify",
       title: "Click me!",
     },
     {
       name: "MentalAquarium",
       desc: "ReactJS  Typescript  Docker  Prisma  NodeJS  DigitalOcean",
-      img: dues,
-      link: "https://www.youtube.com/shorts/X9lBXrwAmBs",
+      img: mentalaquarium,
+      link: "https://github.com/KevinSutandi/devsoc-hackathon",
       title: "Click me!",
     },
     {
-      name: "Dues",
-      desc: "NextJS Typescript Firebase",
-      img: dues,
-      link: "https://www.youtube.com/shorts/X9lBXrwAmBs",
-      title: "Click me!",
+      name: "Coming soon!",
+      desc: "Coming soon!",
+      img: comingsoon,
+      link: "https://www.youtube.com/shorts/SXHMnicI6Pg",
+      title: "If you insist...",
     },
   ];
 

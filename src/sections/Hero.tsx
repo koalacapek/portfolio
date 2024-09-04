@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <section id="home" ref={ref}>
-      <div className="flex flex-col items-center h-screen w-screen relative">
+      <div className="relative flex flex-col items-center h-screen w-screen">
         <Spotlight
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="white"
@@ -38,19 +38,17 @@ const Hero = () => {
           {/* <div className="w-1/2">
             <GlobeDemo />
           </div> */}
-          <div className="flex flex-col w-8/12 items-center justify-center">
+          <div className="relative flex flex-col w-8/12 h-full items-center justify-center">
             <Fade direction="down">
-              <div>
-                <h1 className="text-9xl mb-8">
-                  Hello! <span className="font-bold">I'm Hans</span>
-                </h1>
-              </div>
+              <h1 className="text-9xl mb-8">
+                Hello! <span className="font-bold">I'm Hans</span>
+              </h1>
 
-              <div className="border border-white bg-white rounded-md mt-5 mb-12 px-28" />
+              <div className="bg-white border rounded-md mt-5 mb-12 px-28" />
             </Fade>
 
-            <Fade direction="up">
-              <div className="flex flex-col items-center text-center">
+            <Fade direction="up" className="w-full h-max border-red-500">
+              <div className="w-full flex flex-col items-center text-center">
                 <p className="text-3xl font-bold mb-6">FRONTEND DEVELOPER</p>
 
                 <div className="my-8">
@@ -72,10 +70,10 @@ const Hero = () => {
                 </div>
               </div>
             </Fade>
+            <div className="absolute bottom-20">
+              <ScrollAnimation />
+            </div>
           </div>
-        </div>
-        <div className="absolute bottom-20 left-1/2">
-          <ScrollAnimation />
         </div>
       </div>
     </section>
