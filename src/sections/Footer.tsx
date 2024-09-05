@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           {/* Footer Links */}
-          <div className="flex space-x-8 mb-4">
+          <div className="flex gap-x-8 mb-4 flex-col sm:flex-row gap-y-3 items-center">
             <a href="/terms" className="text-sm text-gray-400 hover:text-white">
               Terms
             </a>
@@ -74,9 +74,10 @@ const Footer = () => {
           </div>
 
           {/* Copyright Text */}
-          <p className="text-xs text-gray-400">
-            © 2024 Hans Kristian Reynaldi. All rights reserved.
-          </p>
+          <div className="text-xs text-gray-400 flex flex-col items-center">
+            <p>© 2024 Hans Kristian Reynaldi</p>
+            <p>All rights reserved.</p>
+          </div>
         </div>
       </div>
     </div>
