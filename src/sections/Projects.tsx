@@ -1,4 +1,3 @@
-import "./about.css";
 import ProjectCard from "../components/ProjectCard";
 import { useSectionInView } from "../hooks/useSectionInView";
 import { Fade } from "react-awesome-reveal";

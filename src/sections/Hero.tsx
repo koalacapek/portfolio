@@ -1,5 +1,4 @@
 import MyResumeButton from "../components/MyResumeButton";
-import "./about.css";
 import ScrollAnimation from "../components/ScrollAnimation";
 import { useSectionInView } from "../hooks/useSectionInView";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
