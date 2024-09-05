@@ -16,28 +16,28 @@ const Footer = () => {
           {/* Social Media Icons */}
           <div className="flex space-x-4 mb-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=100078189393911"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FacebookFilled style={{ fontSize: "24px", color: "white" }} />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/hansreynaldii/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <InstagramOutlined style={{ fontSize: "24px", color: "white" }} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="www.linkedin.com/in/hans-kristian-reynaldi"
               target="_blank"
               rel="noopener noreferrer"
             >
               <LinkedinFilled style={{ fontSize: "24px", color: "white" }} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://github.com/koalacapek"
               target="_blank"
               rel="noopener noreferrer"
             >
