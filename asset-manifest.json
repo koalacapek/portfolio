@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.60e6352d.css",
+    "main.js": "/portfolio/static/js/main.5bf26692.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/dappa.jpg": "/portfolio/static/media/dappa.637c15efadb7f4542d80.jpg",
+    "static/media/cse.png": "/portfolio/static/media/cse.23642d5752e223e43da7.png",
+    "static/media/unswgdsc.png": "/portfolio/static/media/unswgdsc.68667ab8cbf47d8e823b.png",
+    "static/media/hobbifyphone.png": "/portfolio/static/media/hobbifyphone.dd6060ae09e8fd667cb9.png",
+    "static/media/hobbify.png": "/portfolio/static/media/hobbify.36b51f51542fddf88dc6.png",
+    "static/media/figma.png": "/portfolio/static/media/figma.3a0317cbeaabd75e2a70.png",
+    "static/media/comingsoon.png": "/portfolio/static/media/comingsoon.eb2f11cc99c62ac91eeb.png",
+    "static/media/comp1511.jpg": "/portfolio/static/media/comp1511.98e61b231129d8e280f3.jpg",
+    "static/media/dues.png": "/portfolio/static/media/dues.9a6e6458273c3c0e242f.png",
+    "static/media/mentalaquarium.png": "/portfolio/static/media/mentalaquarium.89743289d844139b96e8.png",
+    "static/media/comp2521.jpg": "/portfolio/static/media/comp2521.04943c94b070aebc3b1d.jpg",
+    "static/media/oop.webp": "/portfolio/static/media/oop.03b7727e5d7a3a46dbe1.webp",
+    "static/media/versioncontrol.webp": "/portfolio/static/media/versioncontrol.a30638a3317f7abe2295.webp",
+    "static/media/backend.webp": "/portfolio/static/media/backend.47a85cd7c2805da6f338.webp",
+    "index.html": "/portfolio/index.html",
+    "main.60e6352d.css.map": "/portfolio/static/css/main.60e6352d.css.map",
+    "main.5bf26692.js.map": "/portfolio/static/js/main.5bf26692.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60e6352d.css",
+    "static/js/main.5bf26692.js"
+  ]
+}
