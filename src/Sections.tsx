@@ -5,6 +5,7 @@ import Contact from "./sections/Contact";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Experiences from "./sections/Experiences";
+import Footer from "./sections/Footer";
 
 const Sections = () => {
   return (
@@ -15,6 +16,7 @@ const Sections = () => {
       <Experiences />
       <Projects />
       {/* <Contact /> */}
+      <Footer />
     </ActiveContextProvider>
   );
 };
