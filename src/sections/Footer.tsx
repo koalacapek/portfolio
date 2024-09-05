@@ -30,7 +30,7 @@ const Footer = () => {
               <InstagramOutlined style={{ fontSize: "24px", color: "white" }} />
             </a>
             <a
-              href="www.linkedin.com/in/hans-kristian-reynaldi"
+              href="https://linkedin.com/in/hans-kristian-reynaldi"
               target="_blank"
               rel="noopener noreferrer"
             >
