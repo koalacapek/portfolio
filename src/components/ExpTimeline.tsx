@@ -25,21 +25,23 @@ export function ExpTimeline() {
           </p>
           <div className="mb-8">
             <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
-              ✅ Secured first internship as
+              ✅ Secured first internship as a&nbsp;
               <span className="font-semibold">Frontend Developer </span>
               &nbsp;at&nbsp;
               <span className="font-semibold">DAPPA</span>
             </div>
 
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Joined another hackathon by UNSW CSESoc and DevSoc (did not
               win🥲🥲)
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
-              ✅ Got another (remote) internship! As a Full Stack Engineer at
-              CareDoct.
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+              ✅ Got another (remote) internship! As a&nbsp;
+              <span className="font-semibold">Full Stack Engineer</span>
+              &nbsp;at&nbsp;
+              <span className="font-semibold">CareDoct</span>.
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ More to come!
             </div>
           </div>
@@ -77,16 +79,16 @@ export function ExpTimeline() {
             Get to know more stuff that is applicable in real world.
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Object Oriented Programming and Database Systems
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ UI/UX Design, learn how to use Figma
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Joined UNSW GDSC hackathon and won first place!
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ FRONTENDDDDDDDDD (React and React Native) 😘😘😘😘😘
             </div>
           </div>
@@ -131,19 +133,19 @@ export function ExpTimeline() {
             Started my programming journey at UNSW!
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Hello, World!
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Array, LinkedList, Stack, Queue
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Tree, Graph, Heaps, Priority Queue🤯🤯
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ JAVASCRIPT and TYPESCRIPT😍😍
             </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ Get to work with version control tool as well! (GitLab)
             </div>
           </div>
