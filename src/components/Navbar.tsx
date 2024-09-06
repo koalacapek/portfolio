@@ -60,7 +60,7 @@ const Navbar = () => {
     <div className="flex justify-center">
       <div
         className={`flex flex-col w-full md:mt-10 xl:mt-14 md:w-fit fixed py-5 px-4 md:px-14 md:shadow-xl md:border-2 md:border-greyBorder md:bg-black md:fixed z-10 rounded-full duration-300 transition-all ${
-          !visible && "md:-translate-y-[150%]"
+          !visible && "md:-translate-y-[185%]"
         }`}
       >
         <div

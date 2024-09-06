@@ -36,10 +36,10 @@ const Hero = () => {
           fill="white"
         />
         <div className="flex items-center justify-center w-full h-full">
-          <div className="relative flex flex-col w-8/12 h-full items-center justify-center">
+          <div className="relative flex flex-col w-9/12 h-full items-center justify-center">
             <Fade direction="down">
-              <h1 className="xl:text-9xl text-8xl mb-8 text-center">
-                Hello! I'm{" "}
+              <h1 className="xl:text-9xl text-6xl md:text-8xl mb-8 text-center">
+                Hello! I'm <br />
                 <span className="font-bold block xl:inline">Hans</span>
               </h1>
 
@@ -51,7 +51,7 @@ const Hero = () => {
               className="relative w-full h-max border-red-500"
             >
               <div className="w-full flex flex-col items-center text-center">
-                <p className="text-3xl font-bold mb-6">
+                <p className="text-xl md:text-3xl font-bold mb-6">
                   FRONTEND & BACKEND DEVELOPER
                 </p>
 
