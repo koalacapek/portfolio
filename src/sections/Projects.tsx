@@ -43,15 +43,15 @@ const Projects = () => {
 
   return (
     <section id="projects" ref={ref}>
-      <div className="flex h-fit w-screen justify-center items-center pb-20">
+      <div className="flex h-fit w-screen justify-center items-center md:pb-20">
         <div className="w-10/12 h-full">
-          <div className="flex flex-col h-full items-center justify-center gap-y-20 mx-5 lg:mx-28">
+          <div className="flex flex-col h-full items-center justify-center gap-y-5 lg:gap-y-20 mx-5 lg:mx-28">
             <Fade direction="down">
-              <h1 className="text-center font-bold text-4xl lg:text-5xl pt-44 xl:pt-0">
+              <h1 className="text-center font-bold text-4xl lg:text-5xl pt-10 lg:pt-40 xl:pt-0">
                 My Projects
               </h1>
             </Fade>
-            <div className="w-full grid grid-cols-1 xl:grid-cols-2 xl:gap-x-80 2xl:gap-x-36 justify-items-center gap-y-28">
+            <div className="w-full grid grid-cols-1 xl:grid-cols-2 xl:gap-x-80 2xl:gap-x-36 justify-items-center md:gap-y-28">
               <Fade direction="up">
                 {projects.map((project, index) => (
                   <ProjectCard
