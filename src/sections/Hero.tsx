@@ -46,7 +46,10 @@ const Hero = () => {
               <div className="bg-white border rounded-md mt-5 mb-12 px-28" />
             </Fade>
 
-            <Fade direction="up" className="w-full h-max border-red-500">
+            <Fade
+              direction="up"
+              className="relative w-full h-max border-red-500"
+            >
               <div className="w-full flex flex-col items-center text-center">
                 <p className="text-3xl font-bold mb-6">
                   FRONTEND & BACKEND DEVELOPER
@@ -71,7 +74,7 @@ const Hero = () => {
                 </div>
               </div>
             </Fade>
-            <div className="absolute bottom-20">
+            <div className="hidden md:block absolute bottom-20">
               <ScrollAnimation />
             </div>
           </div>
