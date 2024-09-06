@@ -24,8 +24,11 @@ export function ExpTimeline() {
             Trying to self learn more concepts that is not taught in uni.
           </p>
           <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
-              ✅ Secured first internship as a Frontend Developer at DAPPA.
+            <div className="flex flex-wrap items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
+              ✅ Secured first internship as
+              <span className="font-semibold">Frontend Developer </span>
+              &nbsp;at&nbsp;
+              <span className="font-semibold">DAPPA</span>
             </div>
 
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
