@@ -25,9 +25,7 @@ export function ExpTimeline() {
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
-              ✅ Secured first internship as a
-              <span className="font-semibold">Frontend Developer</span>at
-              <span className="font-semibold">DAPPA</span>
+              ✅ Secured first internship as a Frontend Developer at DAPPA.
             </div>
 
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
@@ -35,8 +33,8 @@ export function ExpTimeline() {
               win🥲🥲)
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
-              ✅ Got another (remote) internship! As a{" "}
-              <span className="font-semibold">Full Stack Engineer</span>
+              ✅ Got another (remote) internship! As a Full Stack Engineer at
+              CareDoct.
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
               ✅ More to come!
@@ -86,9 +84,7 @@ export function ExpTimeline() {
               ✅ Joined UNSW GDSC hackathon and won first place!
             </div>
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-base">
-              ✅ FRONTENDDDDDDDDD<span className="font-semibold">(React</span>{" "}
-              and
-              <span className="font-semibold">React Native)</span> 😘😘😘😘😘
+              ✅ FRONTENDDDDDDDDD (React and React Native) 😘😘😘😘😘
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
