@@ -43,7 +43,7 @@ const Projects = () => {
 
   return (
     <section id="projects" ref={ref}>
-      <div className="flex h-screen w-screen justify-center items-center">
+      <div className="flex h-fit w-screen justify-center items-center pb-20">
         <div className="w-10/12 h-full">
           <div className="flex flex-col h-full items-center justify-center gap-y-20 mx-5 lg:mx-28">
             <Fade direction="down">
