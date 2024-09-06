@@ -45,7 +45,9 @@ const Hero = () => {
 
             <Fade direction="up" className="w-full h-max border-red-500">
               <div className="w-full flex flex-col items-center text-center">
-                <p className="text-3xl font-bold mb-6">FRONTEND DEVELOPER</p>
+                <p className="text-3xl font-bold mb-6">
+                  FRONTEND & BACKEND DEVELOPER
+                </p>
 
                 <div className="my-8">
                   <MyResumeButton />
