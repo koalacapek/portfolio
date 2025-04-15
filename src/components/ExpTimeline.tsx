@@ -17,55 +17,57 @@ import comingsoon from "../assets/comingsoon.png";
 export function ExpTimeline() {
   const data = [
     {
-      title: "2024",
+      title: "2022",
       content: (
         <div>
-          <p className="text-neutral-300 text-xs md:text-base font-normal mb-4">
-            Trying to self learn more concepts that is not taught in uni.
+          <p className="text-neutral-200 text-xs md:text-base font-normal mb-4">
+            Started my programming journey at UNSW!
           </p>
           <div className="mb-8">
             <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ Secured first internship as a&nbsp;
-              <span className="font-semibold">Frontend Developer </span>
-              &nbsp;at&nbsp;
-              <span className="font-semibold">DAPPA</span>
-            </div>
-
-            <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ Joined another hackathon by UNSW CSESoc and DevSoc (did not
-              win🥲🥲)
+              ✅ Hello, World!
             </div>
             <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ Got another (remote) internship! As a&nbsp;
-              <span className="font-semibold">Full Stack Engineer</span>
-              &nbsp;at&nbsp;
-              <span className="font-semibold">CareDoct</span>.
+              ✅ Array, LinkedList, Stack, Queue
             </div>
             <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ More to come!
+              ✅ Tree, Graph, Heaps, Priority Queue🤯🤯
+            </div>
+            <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
+              ✅ JAVASCRIPT and TYPESCRIPT😍😍
+            </div>
+            <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
+              ✅ Get to work with version control tool as well! (GitLab)
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src={dappa}
-              alt="startup template"
+              src={comp1511}
+              alt="hero template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src={cse}
-              alt="startup template"
+              src={comp2521}
+              alt="feature template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src={comingsoon}
-              alt="startup template"
+              src={versioncontrol}
+              alt="bento template"
               width={500}
               height={500}
-              className="object-cover h-20 md:h-44 lg:h-60 w-full "
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <img
+              src={backend}
+              alt="cards template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
           </div>
         </div>
@@ -126,57 +128,55 @@ export function ExpTimeline() {
       ),
     },
     {
-      title: "2022",
+      title: "2024",
       content: (
         <div>
-          <p className="text-neutral-200 text-xs md:text-base font-normal mb-4">
-            Started my programming journey at UNSW!
+          <p className="text-neutral-300 text-xs md:text-base font-normal mb-4">
+            Trying to self learn more concepts that is not taught in uni.
           </p>
           <div className="mb-8">
             <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ Hello, World!
+              ✅ Secured first internship as a&nbsp;
+              <span className="font-semibold">Frontend Developer </span>
+              &nbsp;at&nbsp;
+              <span className="font-semibold">DAPPA</span>
+            </div>
+
+            <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
+              ✅ Joined another hackathon by UNSW CSESoc and DevSoc (did not
+              win🥲🥲)
             </div>
             <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ Array, LinkedList, Stack, Queue
+              ✅ Got another (remote) internship! As a&nbsp;
+              <span className="font-semibold">Full Stack Engineer</span>
+              &nbsp;at&nbsp;
+              <span className="font-semibold">CareDoct</span>.
             </div>
             <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ Tree, Graph, Heaps, Priority Queue🤯🤯
-            </div>
-            <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ JAVASCRIPT and TYPESCRIPT😍😍
-            </div>
-            <div className="flex flex-wrap items-center text-neutral-300 text-xs md:text-base">
-              ✅ Get to work with version control tool as well! (GitLab)
+              ✅ More to come!
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src={comp1511}
-              alt="hero template"
+              src={dappa}
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src={comp2521}
-              alt="feature template"
+              src={cse}
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src={versioncontrol}
-              alt="bento template"
+              src={comingsoon}
+              alt="startup template"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <img
-              src={backend}
-              alt="cards template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="object-cover h-20 md:h-44 lg:h-60 w-full "
             />
           </div>
         </div>
